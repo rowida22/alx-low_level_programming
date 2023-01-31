@@ -1,0 +1,2 @@
+#!/bin/bash
+make $(ls -t *.c | cut -d "." -f1)

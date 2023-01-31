@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter output file name..."
+read output_name
+gcc $(ls -t *.c) -o $output_name 
